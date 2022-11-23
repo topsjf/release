@@ -1,6 +1,6 @@
 {
   "name": "release",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "git推送规范，自动生成log文件、发布release",
   "scripts": {
     "commit": "cz",
