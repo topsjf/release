@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.0](https://github.com/topsjf/release/compare/v1.0.2...v1.1.0) (2022-11-24)
+
+
+### 📚Docs
+
+* 更新文档说明 ([9a7beb3](https://github.com/topsjf/release/commit/9a7beb3a0104ac1af8347df25415f94d293d7d43))
+
+
+### ✨Features
+
+* 更新稳定了 ([ae0d841](https://github.com/topsjf/release/commit/ae0d841595afe4d2cfde48b31ab5df9fa002f2fa))
+
 ## [1.0.2](https://github.com/topsjf/release/compare/v1.0.1...v1.0.2) (2022-11-24)
 
 
