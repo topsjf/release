@@ -25,12 +25,10 @@ pnpm install --save-dev cz-conventional-changelog
 
 commitizen 工具会自动在package.json中添加配置相应的配置
 ```
-commitizen init cz-conventional-changelog --save-dev --save-exact
-
-npx commitizen init cz-conventional-changelog --save-dev --save-exact
+./node_modules/.bin/commitizen init cz-conventional-changelog --save-dev --save-exact
 
 ```
-上面介绍的适配器，只是其中一种，社区还提供了很多其它的适配器，你可以去 [项目页面](https://github.com/commitizen/cz-cli#adapters) 查看。
+上面介绍的适配器，只是其中一种，社区还提供了很多其它的适配器，可以去 [项目页面](https://github.com/commitizen/cz-cli#adapters) 查看。
 
 ```
   "scripts": {
@@ -112,8 +110,9 @@ the change (max 88 chars):
 
 ## husky+commitlint 校验提交是否合规
 
+
+安装 commitlint cli 以及 conventional插件
 ```sh
-# 安装 commitlint cli 以及 conventional插件
 pnpm install --save-dev @commitlint/config-conventional @commitlint/cli
 
 ```
@@ -145,7 +144,7 @@ npx husky add .husky/commit-msg 'pnpm commitlint --edit "$1"'
 ```
 Add a hook:
 ```sh
-npm pkg set scripts.test="echo demo test。"
+npm pkg set scripts.test="echo demo test out。"
 npx husky add .husky/pre-commit "pnpm test"
 
 ```
