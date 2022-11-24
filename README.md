@@ -90,6 +90,10 @@ the change (max 88 chars):
  
 ? 有什么突破性的变化吗?（有就yes，没有就no）Are there any breaking changes? Yes
 
+? 突破性的变更提交需要一个主体。
+请输入更长的提交描述本身: A BREAKING CHANGE commit requires a body.
+Please enter a longer description of the commit itself:
+
 ? 描述突破性的变化: Describe the breaking changes:
  重大变更
  
