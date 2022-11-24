@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/topsjf/release/compare/v1.0.1...v1.0.2) (2022-11-24)
+
+
+### 🐛Bug Fixes
+
+* 发布版本号 ([5241f96](https://github.com/topsjf/release/commit/5241f961c0a392ac94164c3c8d2216656615722b))
+
 ## [1.0.1](https://github.com/topsjf/release/compare/v1.0.0...v1.0.1) (2022-11-23)
 
 
