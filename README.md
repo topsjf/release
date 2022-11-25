@@ -9,30 +9,51 @@
 - feat 发布会增加次版本号（如1.0.0 –> 1.1.0）
 - break change feature 发布会增加主版本号（如1.1.1 –> 2.0.0，官方建议这种不兼容的升级应该推送到 next 分支开发，之后合并到 master）
 
-## 安装commitizen+cz-conventional-changelog
+## 提交消息适配器 commitizen+cz-conventional-changelog
 
 ```
 pnpm install --save-dev commitizen
 
 ```
+
+
 初始化规范适配器
 
 ```
 pnpm install --save-dev cz-conventional-changelog
 ```
 
-或者使用 commitizen 工具
-
+或者使用 commitizen 工具安装
 commitizen 工具会自动在package.json中添加配置相应的配置
+
 ```
 ./node_modules/.bin/commitizen init cz-conventional-changelog --save-dev --save-exact
 
 ```
+
+如果失败，就手动生成配置
+```
+npm pkg set config.commitizen.path="./node_modules/cz-conventional-changelog"
+```
+```
+,
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/cz-conventional-changelog"
+        }
+    },
+```
+
 上面介绍的适配器，只是其中一种，社区还提供了很多其它的适配器，可以去 [项目页面](https://github.com/commitizen/cz-cli#adapters) 查看。
 
 ```
+npm pkg set scripts.commit="git-cz"
+
+```
+
+```
   "scripts": {
-    "commit": "cz",
+    "commit": "git-cz",
   }
 ```
 
@@ -112,19 +133,21 @@ Please enter a longer description of the commit itself:
  create mode 100644 package.json
 ```
 
-## husky+commitlint 校验提交是否合规
+## commitlint 校验提交是否合规
 
+[github地址](https://github.com/conventional-changelog/commitlint)
 
-安装 commitlint cli 以及 conventional插件
+安装依赖
+
 ```sh
 pnpm install --save-dev @commitlint/config-conventional @commitlint/cli
 
 ```
 
-配置`commitlint.config.js`
+配置 [.commitlintrc.js 查看支持文件类型](https://github.com/conventional-changelog/commitlint#config)
 
 ```sh
-echo "module.exports = {extends: ['@commitlint/config-conventional']}" > commitlint.config.js
+echo "module.exports = {extends: ['@commitlint/config-conventional']}" > .commitlintrc.js
 
 ```
 
@@ -136,19 +159,22 @@ pnpm install husky --save-dev
 
 ```
 
-在package.json中的scripts.prepare中添加husky install来确保每个使用的人在使用项目前都会激活husky钩子
+激活husky钩子hooks
 
 ```
 npm pkg set scripts.prepare="husky install"
 
 pnpm run prepare
 
-npx husky add .husky/commit-msg 'pnpm commitlint --edit "$1"'
-
 ```
+
 Add a hook:
+
 ```sh
-npm pkg set scripts.test="echo demo test out。"
+npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
+
+npm pkg set scripts.test="echo demo test out! && exit $1"
+
 npx husky add .husky/pre-commit "pnpm test"
 
 ```
