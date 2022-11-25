@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.2.0](https://github.com/topsjf/release/compare/v1.1.0...v1.2.0) (2022-11-25)
+
+
+### 🐛Bug Fixes
+
+* 初始化提交消息适配器 ([aa6083c](https://github.com/topsjf/release/commit/aa6083c5c5fb6781fd887f1bb4111d39021a18b5))
+* 初始化提交消息适配器 ([463ad44](https://github.com/topsjf/release/commit/463ad44e344a20e1bf4dfd61e041cf8a40da54b7))
+
+
+### ✨Features
+
+* 初始化提交消息校验 ([067326d](https://github.com/topsjf/release/commit/067326d2bae6904866811d8ed0793dfca6080620))
+
 ## [1.1.0](https://github.com/topsjf/release/compare/v1.0.2...v1.1.0) (2022-11-24)
 
 
