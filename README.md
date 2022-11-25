@@ -153,10 +153,9 @@ echo "module.exports = {extends: ['@commitlint/config-conventional']}" > .commit
 
 ```
 
-在提交commit前，检查提交信息
+安装 husky
 
 ```
-# 安装 Husky
 pnpm install husky --save-dev
 
 ```

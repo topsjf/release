@@ -4,11 +4,16 @@
   "description": "git推送规范，自动生成log文件、发布release",
   "scripts": {
     "changelog": "conventional-changelog -p atom -i CHANGELOG.md -s",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "prepare": "husky install",
+    "test": "echo demo test out! && exit "
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.3.0",
+    "@commitlint/config-conventional": "^17.3.0",
     "commitizen": "^4.2.5",
-    "cz-conventional-changelog": "^3.3.0"
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^8.0.2"
   },
   "config": {
     "commitizen": {
