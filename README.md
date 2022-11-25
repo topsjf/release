@@ -67,15 +67,15 @@ git add -A
 pnpm run commit
 
 ```
-
 可选项如下：
 
-- feat: 新的功能
-- fix: 修复buf
+- break change feature 发布会增加主版本号（如1.1.1 –> 2.0.0）**这个选择位于 feat 选项的：? Are there any breaking changes? **
+- feat: 新的功能，发布版本会增加次版本号（如1.0.0 –> 1.1.0）
+- fix: 修复bug，发布版本会增加修订版本号（如 1.0.0 –> 1.0.1）
 - docs: 只修改文档
 - style: 不影响代码含义的修改（比如：空格、格式化、添加缺少的分号等）
 - refactor: 重构代码（既不修复错误，也不增加功能）
-- perf: 提高性能
+- perf: 性能优化
 - test: 添加测试或纠正现有测试
 - build: 影响构建系统或外部依赖的变化（如glup、npm等）
 - ci: ci配置文件和脚本的改变 （如：Travis、Circle）
@@ -108,6 +108,7 @@ the change (max 88 chars):
 (按回车键跳过)Provide a longer description of the change:
 (press enter to skip)
 
+
  
 ? 有什么突破性的变化吗?（有就yes，没有就no）Are there any breaking changes? Yes
 
@@ -117,6 +118,7 @@ Please enter a longer description of the commit itself:
 
 ? 描述突破性的变化: Describe the breaking changes:
  重大变更
+ 
  
  
 ? 这个变化是否影响到未解决的issues? （简单来说就是是否解决了issues里的问题，yes就指定被解决的问题）Does this change affect any open issues? Yes
