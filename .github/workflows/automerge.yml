@@ -26,7 +26,7 @@ jobs:
           GITHUB_TOKEN: '${{ secrets.RELEASE_TOKEN }}'
           MERGE_LABELS: ''
           #title，and，description
-          MERGE_COMMIT_MESSAGE: "${version} pull-request-title"
+          MERGE_COMMIT_MESSAGE: "{version} Auto merge {pullRequest.number}"
           #重试次数
           MERGE_RETRIES: '0'
           #重试间隔10s
@@ -34,5 +34,16 @@ jobs:
           #合并后删除分支
           MERGE_DELETE_BRANCH: 'true'
       #    MERGE_FILTER_AUTHOR: 'topsjf' 
+
+
+
+
+
+
+
+
+
+
+
 
 
