@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.9](https://github.com/topsjf/release/compare/v1.2.8...v1.2.9) (2022-11-27)
+
+
+### 🧪Tests
+
+* 乒乒乓乓 ([3b7e801](https://github.com/topsjf/release/commit/3b7e8015ef3d98b0534c6a90c7e412f89f1c20a8))
+
 ## [1.2.8](https://github.com/topsjf/release/compare/v1.2.7...v1.2.8) (2022-11-27)
 
 
