@@ -3,6 +3,8 @@ name: AutoMerge
 on:
   #以下pr类型触发
   pull_request:
+    branches:
+      - main
     types:
       - labeled
       - unlabeled
