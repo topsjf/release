@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.12](https://github.com/topsjf/release/compare/v1.2.11...v1.2.12) (2022-11-27)
+
+
+### 🧪Tests
+
+* 别看不见 ([459eef4](https://github.com/topsjf/release/commit/459eef475a434b811409b4b66aa09f4b32f7a39a))
+
 ## [1.2.11](https://github.com/topsjf/release/compare/v1.2.10...v1.2.11) (2022-11-27)
 
 
