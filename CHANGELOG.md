@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.1](https://github.com/topsjf/release/compare/v1.3.0...v1.3.1) (2022-11-27)
+
+
+### 🐛Bug Fixes
+
+* 更新 ([4932fb6](https://github.com/topsjf/release/commit/4932fb6927a3979aec76b23d93ca3eb823178585))
+
 ## [1.3.0](https://github.com/topsjf/release/compare/v1.2.13...v1.3.0) (2022-11-27)
 
 
