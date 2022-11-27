@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.8](https://github.com/topsjf/release/compare/v1.2.7...v1.2.8) (2022-11-27)
+
+
+### 🧪Tests
+
+* 孤寡孤寡 ([506c4f0](https://github.com/topsjf/release/commit/506c4f025ede2d6e2c28b9251d8269a7cae59085))
+
 ## [1.2.7](https://github.com/topsjf/release/compare/v1.2.6...v1.2.7) (2022-11-27)
 
 
