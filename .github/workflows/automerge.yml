@@ -3,17 +3,15 @@ name: AutoMerge
 on:
   #以下pr类型触发
   pull_request:
-    branches:
-      - master
     types:
       - labeled
-      - unlabeled
-      - synchronize
-      - opened
-      - edited
-      - ready_for_review
-      - reopened
-      - unlocked
+   #   - unlabeled
+   #   - synchronize
+  #    - opened
+  #    - edited
+   #   - ready_for_review
+   #   - reopened
+   #   - unlocked
   #拉请求审查    
  # pull_request_review:
    # types:
