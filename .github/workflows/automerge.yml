@@ -26,13 +26,13 @@ jobs:
           GITHUB_TOKEN: '${{ secrets.RELEASE_TOKEN }}'
           MERGE_LABELS: ''
           #title，and，description
-          MERGE_COMMIT_MESSAGE: "pull-request-title"
+      #    MERGE_COMMIT_MESSAGE: "pull-request-title"
           #重试次数
           MERGE_RETRIES: '0'
           #重试间隔10s
           MERGE_RETRY_SLEEP: '10000'
           #合并后删除分支
           MERGE_DELETE_BRANCH: 'true'
-          MERGE_FILTER_AUTHOR: 'topsjf' 
+      #    MERGE_FILTER_AUTHOR: 'topsjf' 
 
 
