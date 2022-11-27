@@ -1,0 +1,24 @@
+name: Docs
+
+on:
+  push:
+    tags:
+      - v**
+
+jobs:
+  deploy-gh-pages:
+    name: 发布文档
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          # 如果你文档需要 Git 子模块，取消注释下一行
+          # submodules: true
+
+      - name: 安装 pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 7
+          run_install: true

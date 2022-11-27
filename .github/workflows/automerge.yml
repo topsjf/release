@@ -1,4 +1,4 @@
-name: AutoMerge
+name: Auto Merge
 
 on:
   #以下pr类型触发
@@ -10,8 +10,8 @@ on:
   #    - opened
   #    - edited
    #   - ready_for_review
-   #   - reopened
-   #   - unlocked
+      - reopened
+      - unlocked
   #拉请求审查    
  # pull_request_review:
    # types:
