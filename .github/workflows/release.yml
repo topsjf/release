@@ -1,4 +1,4 @@
-name: Create tags,Log and PR
+name: Create Log and PR
 
 on:
   push:
@@ -17,6 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: google-github-actions/release-please-action@v3
+      #  if: "${{github.ref}}" == "refs/heads/master"
         with:
           token: ${{ secrets.RELEASE_TOKEN }}
           release-type: node

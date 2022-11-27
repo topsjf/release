@@ -12,13 +12,6 @@ on:
    #   - ready_for_review
       - reopened
       - unlocked
-  #拉请求审查    
- # pull_request_review:
-   # types:
-   #   - submitted
- # check_suite:
- #   types:
-#      - completed
   status: {}
   
 jobs:
