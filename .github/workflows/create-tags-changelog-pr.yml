@@ -1,4 +1,4 @@
-name: Create Log and PR
+name: Create Tags,Log,PR
 
 on:
   push:
@@ -13,7 +13,7 @@ env:
   
 jobs:
   release-please:
-    name: 生成日志与创建PR
+    name: 生成日志，PR，tag
     runs-on: ubuntu-latest
     steps:
       - uses: google-github-actions/release-please-action@v3
