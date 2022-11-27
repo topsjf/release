@@ -1,6 +1,6 @@
 {
   "name": "release",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "description": "git推送规范，自动生成log文件、发布release",
   "scripts": {
     "changelog": "conventional-changelog -p atom -i CHANGELOG.md -s",

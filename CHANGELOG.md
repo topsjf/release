@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.6](https://github.com/topsjf/release/compare/v1.2.5...v1.2.6) (2022-11-27)
+
+
+### 🧪Tests
+
+* ddd ([fbac027](https://github.com/topsjf/release/commit/fbac02770f1aec73d69284033a8c5954a45733e5))
+
 ## [1.2.5](https://github.com/topsjf/release/compare/v1.2.4...v1.2.5) (2022-11-27)
 
 
