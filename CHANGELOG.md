@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.10](https://github.com/topsjf/release/compare/v1.2.9...v1.2.10) (2022-11-27)
+
+
+### 🧪Tests
+
+* ppp ([7809e8d](https://github.com/topsjf/release/commit/7809e8dde874be6be84bb5273b14b19058e07948))
+
 ## [1.2.9](https://github.com/topsjf/release/compare/v1.2.8...v1.2.9) (2022-11-27)
 
 
