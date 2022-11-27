@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.5](https://github.com/topsjf/release/compare/v1.2.4...v1.2.5) (2022-11-27)
+
+
+### 🧪Tests
+
+* kKK ([9059177](https://github.com/topsjf/release/commit/905917711daed6724709e86dfe5ee2dfe99b0aed))
+* op ([e5bc2ea](https://github.com/topsjf/release/commit/e5bc2ea830100238f7199fd2ab237d72b3b097fe))
+
 ## [1.2.4](https://github.com/topsjf/release/compare/v1.2.3...v1.2.4) (2022-11-27)
 
 
