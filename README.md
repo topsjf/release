@@ -174,7 +174,7 @@ Add a hook:
 ```sh
 npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
 
-npm pkg set scripts.test="echo demo test out! && exit $1"
+npm pkg set scripts.test="echo demo test out! && exit"
 
 npx husky add .husky/pre-commit "pnpm test"
 
